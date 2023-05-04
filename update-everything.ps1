@@ -25,9 +25,9 @@ Write-Host -ForegroundColor Yellow "--- Updating Python packages ---`n"
 pipx upgrade-all
 Write-Host ""
 
-Write-Host -ForegroundColor Yellow "--- Updating Exercism ---`n"
-exercism upgrade
-Write-Host ""
+# Write-Host -ForegroundColor Yellow "--- Updating Exercism ---`n"
+# exercism upgrade
+# Write-Host ""
 
 Write-Host -ForegroundColor Yellow "--- Updating Racket packages ---`n"
 raco pkg update --all
